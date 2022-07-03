@@ -1,9 +1,9 @@
 # -*- encoding=utf8 -*-
 
 import pytest
-from QAP_28.pages.pages import Headers
-from QAP_28.pages.locators import StartLocators
-from QAP_28.pages.url_list import Labirint
+from pages.pages import Headers
+from pages.locators import StartLocators
+from pages.url_list import Labirint
 
 
 # 1
