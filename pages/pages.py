@@ -1,10 +1,10 @@
 from time import sleep
 
-from QAP_28.pages.base_page import BasePage
-from QAP_28.pages.url_list import Labirint
-from QAP_28.pages.locators import StartLocators, AuthFormLocators
+from pages.base_page import BasePage
+from pages.url_list import Labirint
+from pages.locators import StartLocators, AuthFormLocators
 from selenium.webdriver import ActionChains
-from QAP_28.pages.locators import HomeLocators
+from pages.locators import HomeLocators
 
 
 # Классы определяют параметры Header, стартовой страницы сайта и страницы авторизации,
