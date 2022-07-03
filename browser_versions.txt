@@ -1,0 +1,2 @@
+Chrome 103.0.5060.66 (64 бит)
+https://chromedriver.chromium.org/downloads
