@@ -1,8 +1,8 @@
 # -*- encoding=utf8 -*-
 
 import pytest
-from QAP_28.pages.pages import HomePage
-from QAP_28.pages.url_list import Labirint
+from pages.pages import HomePage
+from pages.url_list import Labirint
 
 
 # 1
