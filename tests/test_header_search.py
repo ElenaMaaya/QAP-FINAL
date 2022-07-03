@@ -2,9 +2,9 @@
 
 import pytest
 
-from QAP_28.pages.aux_metods import AuxMetods
-from QAP_28.pages.pages import Headers
-from QAP_28.pages.locators import StartLocators
+from pages.aux_metods import AuxMetods
+from pages.pages import Headers
+from pages.locators import StartLocators
 
 
 
