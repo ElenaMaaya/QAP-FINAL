@@ -2,9 +2,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver import ActionChains
 
-from QAP_28.pages.locators import AuthFormLocators
-from QAP_28.pages.pages import AuthPage
-from QAP_28.settings import Settings
+from pages.locators import AuthFormLocators
+from pages.pages import AuthPage
+from settings import Settings
 
 
 # 1
