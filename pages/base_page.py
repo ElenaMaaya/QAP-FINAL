@@ -25,12 +25,6 @@ class BasePage(object):
     def get_current_url(self) -> str:
         return self.driver.current_url
 
-    def search_field_click(self, search_value):
-        search_field = self.driver.find_element(*StartLocators.search_field)
-        search_field.clear()
-        search_field.send_keys(search_value)
-        search_field.send_keys(Keys.ENTER)
-
     def save_screen_browser(self, name: str):
         self.driver.save_screenshot(f'screenshots\\{name}.png')
 
