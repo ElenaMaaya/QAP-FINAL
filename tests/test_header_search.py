@@ -100,7 +100,7 @@ def test_sort_by_high_price(web_driver_desktop):
 
 # 7
 def test_add_to_cart(web_driver_desktop):
-    """Тест проверяет добавление книги в картину"""
+    """Тест проверяет добавление книги в корзину"""
     page = Headers(web_driver_desktop)
     page.search_field_click("достоевский")
     page.driver.find_elements(*StartLocators.add_to_cart_buttons)[1].click()  # first book - click "to cart"
