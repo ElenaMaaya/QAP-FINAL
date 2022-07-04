@@ -21,7 +21,7 @@
 
 pip3 install -r requirements
 Скачать Selenium WebDriver с https://chromedriver.chromium.org/downloads 
-(выбрать версию, совместимую с вашим браузером) и скопировать в папку .chromedriver.
+(выбрать версию, совместимую с браузером) и скопировать в папку .chromedriver.
 
 Запустить тесты можно:
 
@@ -43,4 +43,26 @@ python -m pytest -v --driver Chrome --driver-path C://chromedriver/chromedriver.
 
 
 где C://chromedriver/chromedriver.exe находится путь к драйверу Selenium для текущей ОС
+
+Папка .tests:
+
+test_auth_page.py
+
+Тесты осуществляют проверку работы страницы авторизации. 
+
+test_header_btn.py
+
+Тесты осуществляют проверку работы кнопок меню в Header
+
+test_header_search.py
+
+Тесты проверяют работу строки поиска в Header, в том числе с использованием параметризации. 
+
+test_start_page.py
+
+Тесты проверяют корректный вход на сайт с различными параметрами. 
+
+
+
+
 
