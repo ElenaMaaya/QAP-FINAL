@@ -5,6 +5,7 @@ from pages.url_list import Labirint
 from pages.locators import StartLocators, AuthFormLocators
 from selenium.webdriver import ActionChains
 from pages.locators import HomeLocators
+from selenium.webdriver.common.keys import Keys
 
 
 # Классы определяют параметры Header, стартовой страницы сайта и страницы авторизации,
@@ -76,6 +77,12 @@ class Headers(BasePage):
     def amount_menu_2_click(self, index: int):
         self.driver.find_elements(*StartLocators.main_menu_2_points)[index].click()
         sleep(3)
+        
+    def search_field_click(self, search_value):
+        search_field = self.driver.find_element(*StartLocators.search_field)
+        search_field.clear()
+        search_field.send_keys(search_value)
+        search_field.send_keys(Keys.ENTER)
 
 
 class AuthPage(BasePage):
