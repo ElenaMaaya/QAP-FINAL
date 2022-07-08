@@ -40,7 +40,7 @@ def test_displayed_my_lab(web_driver_desktop):
 # 4
 @pytest.mark.smoke
 @pytest.mark.positive
-def test_displayed_putorder(web_driver_desktop):
+def test_display_putorder(web_driver_desktop):
     """Тест проверяет наличие всплывающего окна при наведении на кнопку 'Отложено' в Header"""
     page = Headers(web_driver_desktop)
     page.move_to_element(page.put_order_btn)
